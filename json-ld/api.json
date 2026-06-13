@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "HowLongToBeat API",
+  "description": "Community-accessible interface to HowLongToBeat game completion time data. Provides search-by-game-name and game-detail lookups returning main story, main story plus extras, completionist, and all-styles average times in hours for thousands of video games. No official API key or authentication is required; access is via community wrappers that scrape or proxy the howlongtobeat.com website.",
+  "url": "https://howlongtobeat.com",
+  "termsOfService": "https://howlongtobeat.com",
+  "provider": {
+    "@type": "Organization",
+    "name": "HowLongToBeat",
+    "url": "https://howlongtobeat.com",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "IGN Entertainment (Ziff Davis)",
+      "url": "https://www.ign.com"
+    },
+    "sameAs": [
+      "https://x.com/HowLongToBeat",
+      "https://www.linkedin.com/company/ign-entertainment"
+    ]
+  },
+  "documentation": "https://howlongtobeat.com",
+  "keywords": [
+    "games",
+    "video games",
+    "game completion times",
+    "game database",
+    "community data",
+    "playtime",
+    "gaming"
+  ],
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://howlongtobeat.com/api",
+    "serviceType": "Community Web API"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "authenticationRequired",
+      "value": false
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "officialAPIStatus",
+      "value": "No official public API. Community wrappers query the website directly."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "knownEndpoints",
+      "value": "/api/search (POST), /api/game (GET with id parameter)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "dataFields",
+      "value": "gameId, name, imageUrl, gameplayMain, gameplayMainExtra, gameplayCompletionist, timeLabels, similarity"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "communityWrappers",
+      "value": "howlongtobeat (npm/TypeScript), howlongtobeat-api (Rust), php-howlongtobeat-api (PHP), HowLongToBeat (.NET/NuGet)"
+    }
+  ]
+}

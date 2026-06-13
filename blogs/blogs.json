@@ -1,0 +1,17 @@
+{
+  "aid": "howlongtobeat",
+  "url": "https://howlongtobeat.com",
+  "blogUrl": "https://howlongtobeat.com",
+  "name": "HowLongToBeat",
+  "description": "HowLongToBeat is a game completion time database that tracks how long it takes to finish thousands of video games. Community-sourced data provides average completion times across multiple play styles.",
+  "tags": [
+    "Games",
+    "Video Games",
+    "Game Completion Times",
+    "Game Database",
+    "Community Data"
+  ],
+  "posts": [],
+  "lastFetched": "2026-06-13",
+  "notes": "HowLongToBeat does not publish an official blog RSS feed. The site is owned by IGN Entertainment (Ziff Davis). Community discussion occurs on Reddit and social media. No machine-readable blog feed was found during discovery."
+}
