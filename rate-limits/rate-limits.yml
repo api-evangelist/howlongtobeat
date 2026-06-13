@@ -1,0 +1,21 @@
+rateLimits:
+  - name: Unofficial / Community Access
+    description: HowLongToBeat does not publish official rate limit policies for
+      programmatic access because no public API is formally offered. Community-built
+      wrappers that scrape or proxy the howlongtobeat.com website are subject to
+      standard web server throttling and the site's terms of service. Excessive
+      automated requests may result in IP-level blocking. Developers are advised
+      to implement respectful crawl delays (e.g., 1–2 seconds between requests),
+      cache responses locally, and keep request volumes low to avoid disruption.
+    type: unofficial
+    limits:
+      - No published request-per-minute or request-per-day limits
+      - IP-level rate limiting may apply at the web server level
+      - Aggressive scraping may trigger blocks or CAPTCHAs
+      - Recommended self-imposed delay: 1–2 seconds between requests
+      - Local caching strongly recommended to reduce request volume
+    notes:
+      - Apify's third-party scraper charges $10.00 per 1,000 results and applies
+        its own Apify platform rate limits
+      - Community Node.js, Python, Rust, and .NET wrappers provide no additional
+        rate limiting beyond what the site itself enforces

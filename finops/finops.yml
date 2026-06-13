@@ -1,0 +1,30 @@
+finops:
+  - name: HowLongToBeat FinOps Overview
+    description: HowLongToBeat (owned by IGN Entertainment / Ziff Davis) does not
+      charge for website access or offer a paid API tier. There are no direct API
+      costs associated with using the site for research or informal data retrieval.
+      For teams needing structured, high-volume, or reliable programmatic access
+      the primary third-party option is the Apify-hosted scraper, which carries
+      a per-result cost.
+    directCosts:
+      - service: HowLongToBeat Website (Direct)
+        cost: Free
+        unit: N/A
+        notes: No charge for browsing or informal access; no official API product sold
+    thirdPartyCosts:
+      - service: Apify HowLongToBeat Scraper
+        provider: Apify (lulzasaur actor)
+        cost: '$10.00'
+        unit: per 1,000 results
+        notes: Requires an Apify account and API token; subject to Apify platform
+          compute-unit pricing in addition to the per-result actor cost
+    costDrivers:
+      - Apify actor compute units consumed per scrape run
+      - Number of game records retrieved per query
+      - Proxy usage if custom proxy configuration is applied
+    savingsRecommendations:
+      - Cache API responses locally to avoid redundant requests
+      - Use batch lookups where the wrapper supports multiple games per request
+      - Prefer community open-source wrappers (Node.js, Python, Rust) for low-volume
+        use cases to avoid Apify costs entirely
+      - Implement response TTL caching (game completion times change infrequently)

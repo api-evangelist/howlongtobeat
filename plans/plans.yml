@@ -1,0 +1,18 @@
+plans:
+  - name: Free (Community Access)
+    description: HowLongToBeat does not publish an official API or formal pricing
+      tiers. The website is freely accessible to the public and all game completion
+      time data can be browsed without registration. Community-built wrappers provide
+      programmatic access by querying the site directly. No API keys, subscription
+      fees, or account creation are required for basic data access.
+    type: free
+    features:
+      - Browse game completion times for thousands of titles
+      - Search by game name
+      - View main story, main + extras, completionist, and all-styles average times
+      - Community-submitted time tracking and logging
+      - No registration required for read access
+    limits:
+      - No official API — programmatic access via community wrappers only
+      - Subject to website terms of service regarding automated scraping
+      - No SLA or uptime guarantees for third-party wrapper usage

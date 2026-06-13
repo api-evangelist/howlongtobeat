@@ -1,0 +1,75 @@
+aid: howlongtobeat
+name: HowLongToBeat
+description: HowLongToBeat is a game completion time database that tracks how long
+  it takes to finish thousands of video games. Community-sourced data provides average
+  completion times across multiple play styles including main story, main story plus
+  extras, completionist, and all styles. The site is owned by IGN Entertainment (Ziff
+  Davis) and does not publish an official public API; all programmatic access relies
+  on community-built wrappers that query the website directly.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Games
+  - Video Games
+  - Game Completion Times
+  - Game Database
+  - Community Data
+apis:
+  - aid: howlongtobeat:howlongtobeat-api
+    name: HowLongToBeat API
+    description: Community-accessible interface to HowLongToBeat game completion time
+      data. Provides search-by-game-name and game-detail lookups returning main story,
+      main story plus extras, completionist, and all-styles average times in hours
+      for thousands of video games. No official API key or authentication is required;
+      access is via community wrappers that scrape or proxy the howlongtobeat.com
+      website.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://howlongtobeat.com
+    baseURL: https://howlongtobeat.com/api
+    tags:
+      - Games
+      - Video Games
+      - Game Completion Times
+      - Game Database
+    properties:
+      - type: Documentation
+        url: https://howlongtobeat.com
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: HowLongToBeat Support
+        url: https://howlongtobeat.com
+        email: ''
+common:
+  - type: Website
+    url: https://howlongtobeat.com
+  - type: Documentation
+    url: https://howlongtobeat.com
+  - type: GitHubOrg
+    url: https://github.com/topics/howlongtobeat
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ign-entertainment
+  - type: Blog
+    url: https://howlongtobeat.com
+  - type: Pricing
+    url: https://howlongtobeat.com
+  - type: StatusPage
+    url: https://howlongtobeat.com
+  - type: X
+    url: https://x.com/HowLongToBeat
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/finops/finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
