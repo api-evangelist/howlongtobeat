@@ -6,7 +6,7 @@ description: HowLongToBeat is a game completion time database that tracks how lo
   extras, completionist, and all styles. The site is owned by IGN Entertainment (Ziff
   Davis) and does not publish an official public API; all programmatic access relies
   on community-built wrappers that query the website directly.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -26,7 +26,7 @@ apis:
       for thousands of video games. No official API key or authentication is required;
       access is via community wrappers that scrape or proxy the howlongtobeat.com
       website.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://howlongtobeat.com
     baseURL: https://howlongtobeat.com/api
     tags:
