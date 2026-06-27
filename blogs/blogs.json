@@ -13,17 +13,15 @@
   ],
   "posts": [],
   "lastFetched": "2026-06-13",
-  "notes": "HowLongToBeat does not publish an official blog RSS feed. The site is owned by IGN Entertainment (Ziff Davis). Community discussion occurs on Reddit and social media. No machine-readable blog feed was found during discovery.",
+  "notes": "HowLongToBeat does not publish an official blog RSS feed. The only Blog-type URL in apis.yml is the homepage (https://howlongtobeat.com), which is not a feed and could not be resolved to any RSS/Atom feed (/feed/, /rss/, /feed.xml all non-feed/unreachable). The howlongtobeat.com domain is not fetchable in this environment. No machine-readable blog feed found.",
   "repo": "howlongtobeat",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/ign-entertainment",
-      "feed_url": "https://www.linkedin.com/company/ign-entertainment",
-      "title": "",
+      "source": "https://howlongtobeat.com",
       "saved": 0,
-      "method": "none"
+      "error": "domain not fetchable in this environment (blocked)"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:46:32Z"
 }
