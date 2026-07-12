@@ -48,6 +48,8 @@ apis:
         url: https://howlongtobeat.com
         email: ''
 common:
+  - type: DomainSecurity
+    url: security/howlongtobeat-domain-security.yml
   - type: Website
     url: https://howlongtobeat.com
   - type: Documentation
