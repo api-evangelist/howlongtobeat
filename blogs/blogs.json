@@ -17,11 +17,13 @@
   "repo": "howlongtobeat",
   "feeds": [
     {
-      "source": "https://howlongtobeat.com",
+      "source": "https://www.linkedin.com/company/ign-entertainment",
+      "feed_url": "https://www.linkedin.com/company/ign-entertainment",
+      "title": "",
       "saved": 0,
-      "error": "domain not fetchable in this environment (blocked)"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T12:46:32Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
