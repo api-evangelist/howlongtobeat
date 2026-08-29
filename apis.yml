@@ -6,6 +6,17 @@ description: HowLongToBeat is a game completion time database that tracks how lo
   extras, completionist, and all styles. The site is owned by IGN Entertainment (Ziff
   Davis) and does not publish an official public API; all programmatic access relies
   on community-built wrappers that query the website directly.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
