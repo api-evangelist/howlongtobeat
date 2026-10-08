@@ -20,3 +20,15 @@ plans:
       - No official API — programmatic access via community wrappers only
       - Subject to website terms of service regarding automated scraping
       - No SLA or uptime guarantees for third-party wrapper usage
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Free (Community Access)
+    access: free
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
