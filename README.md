@@ -1,4 +1,4 @@
-# HowLongToBeat (howlongtobeat)
+# HowLongToBeat
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,59 +66,103 @@
 
 HowLongToBeat is a game completion time database that tracks how long it takes to finish thousands of video games. Community-sourced data provides average completion times across multiple play styles including main story, main story plus extras, completionist, and all styles. The site is owned by IGN Entertainment (Ziff Davis) and does not publish an official public API; all programmatic access relies on community-built wrappers that query the website directly.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/apis.yml)
+**Areas:** Games · Video Games · Game Completion Times · Game Database · Community Data
 
-## Tags
+## HowLongToBeat on APIs.io
 
-- Games
-- Video Games
-- Game Completion Times
-- Game Database
-- Community Data
+Everything profiled for HowLongToBeat is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/howlongtobeat/](https://apis.io/providers/howlongtobeat/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [HowLongToBeat API](https://apis.io/apis/howlongtobeat/howlongtobeat-api/) — Community-accessible interface to HowLongToBeat game completion time data. Provides search-by-game-name and game-detail lookups returning main story, main…
 
-## APIs
+### Published properties
 
-### HowLongToBeat API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Community-accessible interface to HowLongToBeat game completion time data. Provides search-by-game-name and game-detail lookups returning main story, main story plus extras, completionist, and all-styles average times in hours for thousands of video games. No official API key or authentication is required; access is via community wrappers that scrape or proxy the howlongtobeat.com website.
+#### Security (1)
 
-- **Human URL:** [https://howlongtobeat.com](https://howlongtobeat.com)
-- **Base URL:** `https://howlongtobeat.com/api`
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Howlongtobeat Domain Security](https://apis.io/security/howlongtobeat/howlongtobeat-domain-security/)
 
-- Games
-- Video Games
-- Game Completion Times
-- Game Database
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://howlongtobeat.com)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/plans/plans.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/rate-limits/rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/finops/finops.yml)
+- [Plans](https://apis.io/plans/howlongtobeat/plans/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/howlongtobeat/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/howlongtobeat/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://howlongtobeat.com)
 - [Documentation](https://howlongtobeat.com)
-- [Git Hub Org](https://github.com/topics/howlongtobeat)
-- [LinkedIn](https://www.linkedin.com/company/ign-entertainment)
-- [Blog](https://howlongtobeat.com)
 - [Pricing](https://howlongtobeat.com)
-- [Status Page](https://howlongtobeat.com)
-- [X (Twitter)](https://x.com/HowLongToBeat)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/plans/plans.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/rate-limits/rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/finops/finops.yml)
+- [Blog](https://howlongtobeat.com)
+- [Status](https://howlongtobeat.com)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 13.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 15.8 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/howlongtobeat/](https://apis.io/providers/howlongtobeat/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HowLongToBeat: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/howlongtobeat/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
